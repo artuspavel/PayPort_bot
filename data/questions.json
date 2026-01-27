@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "text_en": "1. Full name:\n\nExample: M.Rajesh Kannan",
+    "text_ru": "1. ФИО (полное имя):\n\nПример: Иванов Иван Иванович",
+    "text_ar": "1. الاسم الكامل:\n\nمثال: محمد أحمد علي",
+    "key": "full_name"
+  },
+  {
+    "id": 2,
+    "text_en": "2. Personal Telegram account:\n\nExample: @Steve6374",
+    "text_ru": "2. Личный Telegram аккаунт:\n\nПример: @Steve6374",
+    "text_ar": "2. حساب تيليجرام الشخصي:\n\nمثال: @Steve6374",
+    "key": "personal_telegram"
+  },
+  {
+    "id": 3,
+    "text_en": "3. Telegram for adding to chats, authorization, and troubleshooting:\n\nExample: @Steve6374",
+    "text_ru": "3. Telegram для добавления в чаты, авторизации и решения проблем:\n\nПример: @Steve6374",
+    "text_ar": "3. تيليجرام للإضافة إلى المحادثات والتفويض وحل المشكلات:\n\nمثال: @Steve6374",
+    "key": "work_telegram"
+  },
+  {
+    "id": 4,
+    "text_en": "4. WhatsApp number for emergency contact:\n\nExample: +7708812527",
+    "text_ru": "4. Номер WhatsApp для экстренной связи:\n\nПример: +7708812527",
+    "text_ar": "4. رقم واتساب للتواصل في حالات الطوارئ:\n\nمثال: +971501234567",
+    "key": "whatsapp"
+  },
+  {
+    "id": 5,
+    "text_en": "5. Contact email:\n\nExample: example@gmail.com",
+    "text_ru": "5. Контактный email:\n\nПример: example@gmail.com",
+    "text_ar": "5. البريد الإلكتروني للتواصل:\n\nمثال: example@gmail.com",
+    "key": "email"
+  },
+  {
+    "id": 6,
+    "text_en": "6. Country and city of residence:\n\nExample: India, Madurai",
+    "text_ru": "6. Страна и город проживания:\n\nПример: Россия, Москва",
+    "text_ar": "6. بلد ومدينة الإقامة:\n\nمثال: الإمارات، دبي",
+    "key": "location"
+  },
+  {
+    "id": 7,
+    "text_en": "7. Age:\n\nExample: 24",
+    "text_ru": "7. Возраст:\n\nПример: 24",
+    "text_ar": "7. العمر:\n\nمثال: 24",
+    "key": "age"
+  },
+  {
+    "id": 8,
+    "text_en": "8. Processing experience.\nIf you have no experience, please describe your previous work:\n\nExample: Yes, I have worked on sites like Mostbet and Firstpay.",
+    "text_ru": "8. Опыт в процессинге.\nЕсли нет опыта, опишите предыдущую работу:\n\nПример: Да, работал с Mostbet и Firstpay.",
+    "text_ar": "8. خبرة في المعالجة.\nإذا لم يكن لديك خبرة، يرجى وصف عملك السابق:\n\nمثال: نعم، عملت في مواقع مثل Mostbet و Firstpay.",
+    "key": "experience"
+  },
+  {
+    "id": 9,
+    "text_en": "9. Would you like to collaborate with us as a trader or team leader?\n\nExample: Team leader",
+    "text_ru": "9. Хотите сотрудничать как трейдер или тимлид?\n\nПример: Тимлид",
+    "text_ar": "9. هل ترغب في التعاون معنا كمتداول أو قائد فريق؟\n\nمثال: قائد فريق",
+    "key": "role_preference"
+  },
+  {
+    "id": 10,
+    "text_en": "10. Your role in the team and team composition:\n\nExample: The boss, I will work alone / 3 people: 1 manager, 2 operators",
+    "text_ru": "10. Ваша роль в команде и состав команды:\n\nПример: Руководитель, работаю один / 3 человека: 1 менеджер, 2 оператора",
+    "text_ar": "10. دورك في الفريق وتكوين الفريق:\n\nمثال: المدير، سأعمل وحدي / 3 أشخاص: 1 مدير، 2 مشغلين",
+    "key": "team_composition"
+  },
+  {
+    "id": 11,
+    "text_en": "11. What platforms have you worked on?\n\nExample: Mostbet, P2pay, P2P",
+    "text_ru": "11. На каких платформах работали?\n\nПример: Mostbet, P2pay, P2P",
+    "text_ar": "11. ما هي المنصات التي عملت عليها؟\n\nمثال: Mostbet, P2pay, P2P",
+    "key": "platforms_experience"
+  },
+  {
+    "id": 12,
+    "text_en": "12. What volume can you process?\n(Please specify the volume at startup and in standard mode separately)\n\nExample:\n- First week: $5,000 per day\n- Maximum: $7,000 per day",
+    "text_ru": "12. Какой объём можете обрабатывать?\n(Укажите объём на старте и в стандартном режиме отдельно)\n\nПример:\n- Первая неделя: $5,000 в день\n- Максимум: $7,000 в день",
+    "text_ar": "12. ما هو الحجم الذي يمكنك معالجته؟\n(يرجى تحديد الحجم عند البدء وفي الوضع العادي بشكل منفصل)\n\nمثال:\n- الأسبوع الأول: 5,000$ في اليوم\n- الحد الأقصى: 7,000$ في اليوم",
+    "key": "processing_volume"
+  },
+  {
+    "id": 13,
+    "text_en": "13. What working deposit are you prepared to use, taking into account the fixed security deposit?\n\nExample: Working deposit $5,000, security deposit $1,500. After I get acquainted with your traffic volume, I can increase the working deposit.",
+    "text_ru": "13. Какой рабочий депозит готовы использовать с учётом страхового депозита?\n\nПример: Рабочий депозит $5,000, страховой $1,500. После знакомства с объёмом трафика смогу увеличить.",
+    "text_ar": "13. ما هو الإيداع العامل الذي أنت مستعد لاستخدامه، مع مراعاة إيداع الضمان الثابت؟\n\nمثال: إيداع عامل 5,000$، إيداع ضمان 1,500$. بعد التعرف على حجم حركة المرور، يمكنني زيادة الإيداع العامل.",
+    "key": "deposits"
+  },
+  {
+    "id": 14,
+    "text_en": "14. Number of available working account details per month:\n\nExample: 22",
+    "text_ru": "14. Количество доступных рабочих реквизитов в месяц:\n\nПример: 22",
+    "text_ar": "14. عدد تفاصيل الحسابات العاملة المتاحة شهرياً:\n\nمثال: 22",
+    "key": "account_details_count"
+  },
+  {
+    "id": 15,
+    "text_en": "15. What methods and banks will be used?\n\nExample:\n- Axis Bank\n- Punjab National Bank\n- State Bank\n- Karur Vysya Bank",
+    "text_ru": "15. Какие методы и банки будут использоваться?\n\nПример:\n- Сбербанк\n- Тинькофф\n- Альфа-Банк",
+    "text_ar": "15. ما هي الطرق والبنوك التي سيتم استخدامها؟\n\nمثال:\n- بنك الإمارات دبي الوطني\n- بنك أبوظبي الأول\n- بنك المشرق",
+    "key": "banks_methods"
+  },
+  {
+    "id": 16,
+    "text_en": "16. Are you interested in working on a limited basis or on a farm?\n\nExample: Yes, I am interested",
+    "text_ru": "16. Интересует работа на лимитах или на ферме?\n\nПример: Да, интересует",
+    "text_ar": "16. هل أنت مهتم بالعمل على أساس محدود أو في مزرعة؟\n\nمثال: نعم، أنا مهتم",
+    "key": "work_type_interest"
+  },
+  {
+    "id": 17,
+    "text_en": "17. What is your work schedule? Do you need technical breaks? Will there be weekends and holidays during the calendar year?\n\nExample: Working 24/7 / Mon-Fri 9:00-21:00, weekends off",
+    "text_ru": "17. Какой график работы? Нужны ли технические перерывы? Будут ли выходные и праздники?\n\nПример: Работаю 24/7 / Пн-Пт 9:00-21:00, выходные отдыхаю",
+    "text_ar": "17. ما هو جدول عملك؟ هل تحتاج فترات راحة تقنية؟ هل ستكون هناك عطلات نهاية أسبوع وإجازات؟\n\nمثال: العمل 24/7 / الاثنين-الجمعة 9:00-21:00، عطلة نهاية الأسبوع",
+    "key": "work_schedule"
+  },
+  {
+    "id": 18,
+    "text_en": "18. Team name:\n\nExample: Team Rajesh",
+    "text_ru": "18. Название команды:\n\nПример: Team Alpha",
+    "text_ar": "18. اسم الفريق:\n\nمثال: فريق أحمد",
+    "key": "team_name"
+  },
+  {
+    "id": 19,
+    "text_en": "19. How did you hear about our platform?\n\nExample: Via friends / Telegram channel / Google",
+    "text_ru": "19. Как узнали о нашей платформе?\n\nПример: Через друзей / Telegram канал / Google",
+    "text_ar": "19. كيف سمعت عن منصتنا؟\n\nمثال: من خلال الأصدقاء / قناة تيليجرام / جوجل",
+    "key": "referral_source"
+  },
+  {
+    "id": 20,
+    "text_en": "20. What is the maximum and minimum limit you can accept per transaction?\n(Please specify separately for pay-in and payout)\n\nExample: $10 - $60,000 per transaction",
+    "text_ru": "20. Какие максимальный и минимальный лимиты на транзакцию?\n(Укажите отдельно для pay-in и payout)\n\nПример: $10 - $60,000 за транзакцию",
+    "text_ar": "20. ما هو الحد الأقصى والأدنى الذي يمكنك قبوله لكل معاملة؟\n(يرجى التحديد بشكل منفصل للإيداع والسحب)\n\nمثال: 10$ - 60,000$ لكل معاملة",
+    "key": "transaction_limits"
+  },
+  {
+    "id": 21,
+    "text_en": "21. If your bank accounts or payment wallets are blocked, are you prepared to unblock them and return the funds?\nAre you located in the country of the currency you will be processing?\n\nExample: If it is possible to open the account again, I will do so. Unblocking depends on the problem severity.",
+    "text_ru": "21. Если ваши банковские счета или кошельки заблокируют, готовы ли разблокировать и вернуть средства?\nНаходитесь ли вы в стране валюты, которую будете обрабатывать?\n\nПример: Если возможно открыть счёт снова — сделаю. Разблокировка зависит от серьёзности проблемы.",
+    "text_ar": "21. إذا تم حظر حساباتك المصرفية أو محافظ الدفع، هل أنت مستعد لإلغاء الحظر وإعادة الأموال؟\nهل أنت موجود في بلد العملة التي ستقوم بمعالجتها؟\n\nمثال: إذا كان من الممكن فتح الحساب مرة أخرى، سأفعل ذلك. إلغاء الحظر يعتمد على خطورة المشكلة.",
+    "key": "blocking_policy"
+  },
+  {
+    "id": 22,
+    "text_en": "22. On which platforms do you buy USDT? What is the average time to repurchase USDT?\n\nExample: Local USDT buyer or Binance. Time: 3-5 hours.",
+    "text_ru": "22. На каких платформах покупаете USDT? Среднее время на выкуп USDT?\n\nПример: Локальный покупатель или Binance. Время: 3-5 часов.",
+    "text_ar": "22. على أي منصات تشتري USDT؟ ما هو متوسط وقت إعادة شراء USDT؟\n\nمثال: مشتري USDT محلي أو Binance. الوقت: 3-5 ساعات.",
+    "key": "usdt_platforms"
+  },
+  {
+    "id": 23,
+    "text_en": "23. This is how the current exchange rate is calculated in our system. Are you ready to work at this rate?\n\nBinance → INR → Green button → Bank transfer → Verified merchants only\nFind 3 ads, calculate average between 2nd and 3rd\n- Percentage 98+\n- Number of orders 400+\n\nExample: Yes, I agree",
+    "text_ru": "23. Так рассчитывается текущий курс в нашей системе. Готовы работать по этому курсу?\n\nBinance → INR → Зелёная кнопка → Банковский перевод → Только верифицированные\nНайти 3 объявления, рассчитать среднее между 2-м и 3-м\n- Процент 98+\n- Количество ордеров 400+\n\nПример: Да, согласен",
+    "text_ar": "23. هذه هي طريقة حساب سعر الصرف الحالي في نظامنا. هل أنت مستعد للعمل بهذا السعر؟\n\nBinance → AED → الزر الأخضر → تحويل بنكي → التجار الموثقون فقط\nابحث عن 3 إعلانات، احسب المتوسط بين الثاني والثالث\n- النسبة المئوية 98+\n- عدد الطلبات 400+\n\nمثال: نعم، أوافق",
+    "key": "exchange_rate_agreement"
+  },
+  {
+    "id": 24,
+    "text_en": "24. What are your traffic restrictions and preferences?\n(Traffic type: primary or secondary) (forex, gambling, betting)\n\nExample: All types of traffic / Only gambling and betting",
+    "text_ru": "24. Какие ограничения и предпочтения по трафику?\n(Тип трафика: первичный или вторичный) (forex, gambling, betting)\n\nПример: Все типы трафика / Только gambling и betting",
+    "text_ar": "24. ما هي قيود وتفضيلات حركة المرور الخاصة بك؟\n(نوع حركة المرور: أساسي أو ثانوي) (فوركس، قمار، مراهنات)\n\nمثال: جميع أنواع حركة المرور / فقط القمار والمراهنات",
+    "key": "traffic_preferences"
+  },
+  {
+    "id": 25,
+    "text_en": "25. Are you ready to work with automation? (mobile app integration with our system)\n\nExample: Yes / No",
+    "text_ru": "25. Готовы работать с автоматизацией? (интеграция мобильного приложения с нашей системой)\n\nПример: Да / Нет",
+    "text_ar": "25. هل أنت مستعد للعمل مع الأتمتة؟ (تكامل تطبيق الهاتف المحمول مع نظامنا)\n\nمثال: نعم / لا",
+    "key": "automation_ready"
+  },
+  {
+    "id": 26,
+    "text_en": "26. What phone models do you use for automation work?\n(This information can be found in Settings → About phone)\n\nExample: Galaxy Z Fold 6, Model SM-F956B/DS",
+    "text_ru": "26. Какие модели телефонов используете для автоматизации?\n(Информация в Настройки → О телефоне)\n\nПример: Galaxy Z Fold 6, Model SM-F956B/DS",
+    "text_ar": "26. ما هي موديلات الهواتف التي تستخدمها لعمل الأتمتة؟\n(يمكن العثور على هذه المعلومات في الإعدادات ← حول الهاتف)\n\nمثال: Galaxy Z Fold 6, Model SM-F956B/DS",
+    "key": "phone_models"
+  },
+  {
+    "id": 27,
+    "text_en": "27. How do you receive notifications from banks?\n(SMS, push notifications, or email?)\n\nExample: I will use SMS because I have access to all SIM cards linked to my bank accounts.",
+    "text_ru": "27. Как получаете уведомления от банков?\n(SMS, push-уведомления или email?)\n\nПример: Использую SMS, так как есть доступ ко всем SIM-картам, привязанным к счетам.",
+    "text_ar": "27. كيف تتلقى إشعارات من البنوك؟\n(SMS، إشعارات push، أو البريد الإلكتروني؟)\n\nمثال: سأستخدم SMS لأن لدي وصول إلى جميع شرائح SIM المرتبطة بحساباتي المصرفية.",
+    "key": "bank_notifications"
+  },
+  {
+    "id": 28,
+    "text_en": "28. How often can settlements be made or fiat bought back?\n\nExample: Daily / Every 2-3 days / Weekly",
+    "text_ru": "28. Как часто могут производиться сеттлменты или выкуп фиата?\n\nПример: Ежедневно / Каждые 2-3 дня / Еженедельно",
+    "text_ar": "28. كم مرة يمكن إجراء التسويات أو إعادة شراء العملات الورقية؟\n\nمثال: يومياً / كل 2-3 أيام / أسبوعياً",
+    "key": "settlement_frequency"
+  },
+  {
+    "id": 29,
+    "text_en": "29. Settlement fee – 1 USDT. Is this acceptable?\n\nExample: Yes, accepted / Need to discuss",
+    "text_ru": "29. Комиссия за сеттлмент – 1 USDT. Это приемлемо?\n\nПример: Да, принимаю / Нужно обсудить",
+    "text_ar": "29. رسوم التسوية – 1 USDT. هل هذا مقبول؟\n\nمثال: نعم، مقبول / بحاجة للنقاش",
+    "key": "settlement_fee_agreement"
+  },
+  {
+    "id": 30,
+    "text_en": "30. How long do you need to make a settlement?\n\nExample: 1-2 hours / Same day",
+    "text_ru": "30. Сколько времени нужно на проведение сеттлмента?\n\nПример: 1-2 часа / В тот же день",
+    "text_ar": "30. كم من الوقت تحتاج لإجراء التسوية؟\n\nمثال: 1-2 ساعة / في نفس اليوم",
+    "key": "settlement_time"
+  },
+  {
+    "id": 31,
+    "text_en": "31. What exchange center do you use? How do you use the rate?\n\nExample: Binance, Buy button, amount $500, specific line",
+    "text_ru": "31. Какую биржу используете? Как используете курс?\n\nПример: Binance, кнопка Buy, сумма $500, конкретная строка",
+    "text_ar": "31. ما هو مركز الصرافة الذي تستخدمه؟ كيف تستخدم السعر؟\n\nمثال: Binance، زر الشراء، المبلغ 500$، سطر محدد",
+    "key": "exchange_center"
+  }
+]
