@@ -215,3 +215,9 @@ journalctl -u payport-bot -f
 - Кнопка “Продолжить” появляется после fingerprint как fallback
 - Совпадения показываются оператору с ником и описанием инвайта
 
+## 16. Дополнительные документы
+
+- `docs/API.md` — WebApp API и формат данных
+- `docs/ERD.md` — ER‑диаграмма БД
+- `docs/SEQUENCE.md` — текстовые sequence‑диаграммы
+
