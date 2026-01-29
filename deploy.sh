@@ -74,7 +74,7 @@ if [ ! -f .env ]; then
     echo ""
     echo "    Содержимое:"
     echo "    BOT_TOKEN=your_token_here"
-    echo "    FIRST_ADMIN_USERNAME=AlbuRx"
+    echo "    FIRST_ADMIN_USERNAME=YOUR_ADMIN_USERNAME"
 else
     systemctl restart payport-bot
     echo "✅ Bot restarted!"

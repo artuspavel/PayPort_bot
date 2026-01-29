@@ -12,7 +12,7 @@ if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable is required")
 
 # First admin username (without @)
-FIRST_ADMIN_USERNAME = os.getenv("FIRST_ADMIN_USERNAME", "AlbuRx")
+FIRST_ADMIN_USERNAME = os.getenv("FIRST_ADMIN_USERNAME", "")
 
 # Paths
 BASE_DIR = Path(__file__).parent.parent

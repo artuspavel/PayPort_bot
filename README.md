@@ -43,7 +43,7 @@ pip install -r requirements.txt
 # Создать файл .env
 cat > .env << EOF
 BOT_TOKEN=your_bot_token_here
-FIRST_ADMIN_USERNAME=AlbuRx
+FIRST_ADMIN_USERNAME=YOUR_ADMIN_USERNAME
 EOF
 ```
 
@@ -57,7 +57,7 @@ python run.py
 
 ## Использование
 
-### Для администратора (@AlbuRx)
+### Для администратора
 
 1. Напишите `/start` боту
 2. Используйте меню для:
