@@ -27,6 +27,9 @@ def admin_menu() -> InlineKeyboardMarkup:
         InlineKeyboardButton(text="👑 Назначить админа", callback_data="admin:make_admin")
     )
     builder.row(
+        InlineKeyboardButton(text="👤 Снять статус админа", callback_data="admin:demote_admin")
+    )
+    builder.row(
         InlineKeyboardButton(text="👥 Список пользователей", callback_data="admin:list_operators")
     )
     builder.row(

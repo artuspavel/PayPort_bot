@@ -265,6 +265,83 @@ async def make_admin_execute(callback: CallbackQuery, state: FSMContext):
     await callback.answer()
 
 
+# ============ Demote Admin ============
+
+@router.callback_query(F.data == "admin:demote_admin")
+async def demote_admin_start(callback: CallbackQuery, state: FSMContext):
+    """Show admins list to demote."""
+    if not await is_admin(callback.from_user.id):
+        await callback.answer("❌ Нет доступа", show_alert=True)
+        return
+    
+    operators = await db.list_operators()
+    # Filter only admins (except self)
+    current_user = await db.get_user_by_telegram_id(callback.from_user.id)
+    admins = [
+        op for op in operators 
+        if op['is_admin'] and op['username'] != current_user['username']
+    ]
+    
+    if not admins:
+        await callback.message.edit_text(
+            "📭 Нет других администраторов для понижения.",
+            reply_markup=admin_menu()
+        )
+        await callback.answer()
+        return
+    
+    await callback.message.edit_text(
+        "👤 Выберите администратора для понижения до оператора:",
+        reply_markup=operators_list_keyboard(admins, "demote")
+    )
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("demote_op:"))
+async def demote_admin_confirm(callback: CallbackQuery, state: FSMContext):
+    """Confirm demoting admin."""
+    if not await is_admin(callback.from_user.id):
+        await callback.answer("❌ Нет доступа", show_alert=True)
+        return
+    
+    username = callback.data.split(":")[1]
+    await state.update_data(demote_username=username)
+    
+    await callback.message.edit_text(
+        f"⚠️ Снять статус администратора с @{username}?\n\n"
+        "Пользователь станет обычным оператором.",
+        reply_markup=confirm_keyboard("demote_admin")
+    )
+    await callback.answer()
+
+
+@router.callback_query(F.data == "confirm:demote_admin")
+async def demote_admin_execute(callback: CallbackQuery, state: FSMContext):
+    """Execute admin demotion."""
+    if not await is_admin(callback.from_user.id):
+        await callback.answer("❌ Нет доступа", show_alert=True)
+        return
+    
+    data = await state.get_data()
+    username = data.get('demote_username')
+    
+    if username:
+        success = await db.demote_admin(username)
+        if success:
+            await callback.message.edit_text(
+                f"✅ @{username} теперь обычный оператор.",
+                reply_markup=admin_menu()
+            )
+        else:
+            await callback.message.edit_text(
+                f"❌ Не удалось понизить @{username}.",
+                reply_markup=admin_menu()
+            )
+    
+    await state.clear()
+    await callback.answer()
+
+
 # ============ Questions Management Menu ============
 
 @router.callback_query(F.data == "admin:edit_questions")

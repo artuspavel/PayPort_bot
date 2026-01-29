@@ -261,6 +261,17 @@ async def make_admin(username: str) -> bool:
         return cursor.rowcount > 0
 
 
+async def demote_admin(username: str) -> bool:
+    """Demote admin to regular operator."""
+    async with aiosqlite.connect(DATABASE_PATH) as db:
+        cursor = await db.execute(
+            "UPDATE users SET is_admin = 0 WHERE username = ? AND is_active = 1",
+            (username.lower().lstrip('@'),)
+        )
+        await db.commit()
+        return cursor.rowcount > 0
+
+
 async def list_operators() -> list:
     """List all active operators."""
     async with aiosqlite.connect(DATABASE_PATH) as db:
